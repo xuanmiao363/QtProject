@@ -36,6 +36,8 @@ public:
     void getHostInformation();
     void setupWindow(QWidget *parent);
 
+public slots:
+    void slotDetail();
 };
 
 #endif // NETWORKINFORMATION_H
